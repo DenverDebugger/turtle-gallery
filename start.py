@@ -1,17 +1,10 @@
 from turtle import *
-bgcolor('black')
-color('blue')
-fillcolor('pink')
-begin_fill()
 
-# drawing the shape
-forward(200)
-left(90)
-forward(200)
-left(90)
-forward(200)
-left(90)
-forward(200)
+class MyTurtle(Turtle):
 
-end_fill()
+    def square(self, size):
+        for _ in range(4):
+            self.fd(size)
+            self.lt(90)
+
 mainloop()
