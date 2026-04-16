@@ -11,6 +11,11 @@ class MyTurtle(Turtle):
         for _ in range(3):
             self.fd(size)
             self.lt(120)
+
+    def hexagon(self, size):
+        for _ in range(6):
+            self.fd(size)
+            self.lt(60)
     
     # TODO: Hexagon
     # TODO: Octagon
@@ -22,6 +27,7 @@ class MyTurtle(Turtle):
     # TODO: Regular Polyhedra
 
 t = MyTurtle()
-t.square(100)
-t.triangle(50)
+t.hexagon(100)
+#t.square(100)
+#t.triangle(50)
 mainloop()
