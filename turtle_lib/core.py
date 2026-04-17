@@ -21,6 +21,15 @@ class MyTurtle(Turtle):
         super().circle(size)
 
         
+    def octagon(self, size):
+        pass
+
+    def spiral(self, size):
+        pass
+
+    def star(self, size):
+        pass
+
     # TODO: Hexagon
     # TODO: Octagon
     # TODO: Circle
