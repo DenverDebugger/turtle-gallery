@@ -17,6 +17,10 @@ class MyTurtle(Turtle):
             self.fd(size)
             self.lt(60)
     
+    def circle(self, size):
+        super().circle(size)
+
+        
     # TODO: Hexagon
     # TODO: Octagon
     # TODO: Circle
@@ -27,7 +31,8 @@ class MyTurtle(Turtle):
     # TODO: Regular Polyhedra
 
 t = MyTurtle()
-t.hexagon(100)
+t.circle(100)
+#t.hexagon(100)
 #t.square(100)
 #t.triangle(50)
 mainloop()
